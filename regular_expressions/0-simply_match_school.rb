@@ -9,5 +9,5 @@ pattern = /School/
 if input =~ pattern
   puts "School"
 else
-  puts "School"
+  puts "SchoolSchool"
 end
