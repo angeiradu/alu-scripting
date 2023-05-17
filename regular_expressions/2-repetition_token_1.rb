@@ -3,7 +3,5 @@ input = ARGV[0]
 
 pattern = /hb?tn/
   matches=input.match(pattern)
-if matches
-  puts "#{matches[0]}"
-else
-  puts "not found"  
+for match in matches
+  print(#{matches[0]})
