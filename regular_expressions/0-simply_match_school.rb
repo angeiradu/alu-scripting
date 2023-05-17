@@ -4,8 +4,8 @@
 text_to_search = '''
 
 School is best
-school
-sccool is School
+School
+School is School
 
 pattern = re.compiler(r'School\.')
 
