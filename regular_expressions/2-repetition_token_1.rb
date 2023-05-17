@@ -3,5 +3,8 @@ input = ARGV[0]
 
 pattern = /^htb{n}$/
   matches=input.match(pattern)
-for match in matches
-  print(#{matches[0]})
+if input =~ pattern
+  puts "Input matches the pattern!"
+else
+  puts "Input does not match the pattern."
+end
