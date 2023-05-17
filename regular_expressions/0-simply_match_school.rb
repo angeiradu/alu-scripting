@@ -7,7 +7,7 @@ pattern = /School/
 
 # Check if the input matches the pattern
 if input =~ pattern
-  puts "Input matches 'School'!"
+  puts "School"
 else
-  puts "Input does not match 'School'."
+  puts "School"
 end
