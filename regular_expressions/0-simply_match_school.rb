@@ -1,11 +1,13 @@
-#!/usr/bin/env rub
-#import re
-#text_to_search='''
-#School is the best
-#School
-#School is School
-#pattern = re.compiler(r'School\.')
-#matches = pattern.finditer(text_to_search)
+# Get the argument from the command line
+input = ARGV[0]
 
-#for match in matches:
-#print(match)
+# Define the regular expression
+pattern = /School/
+
+# Check if the input matches the pattern
+if input =~ pattern
+  puts "Input matches 'School'!"
+else
+  puts "Input does not match 'School'."
+end
+
