@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 #import re
 
-text_to_search = '''
-
+text_to_search =
 School is best
 School
 School is School
