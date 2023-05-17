@@ -5,6 +5,3 @@ pattern = /hb?tn/
   matches=input.match(pattern)
 if matches
   puts "#{matches[0]}"
-else
-  puts "match not found"
-end
