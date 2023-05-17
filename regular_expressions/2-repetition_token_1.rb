@@ -3,6 +3,5 @@ input = ARGV[0]
 
 pattern = /^ht(b?)n$/
 matches=input.match(pattern)
-
-for match in matches
-  print(match)
+if matches = pattern
+  print(input)
