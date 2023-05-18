@@ -4,4 +4,4 @@ input = ARGV[0]
 pattern = /^htb?n/
 matches=input.match(pattern)
 if matches =~ pattern
-  puts "matches{[0]" 
+  puts matche 
