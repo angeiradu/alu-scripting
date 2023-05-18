@@ -3,7 +3,7 @@
 input = ARGV[0]
 
 # Define regular expression pattern
-pattern = /(htn|hbtn)/
+pattern = /(hbtn|hbn)/
 
 matches = input.scan(pattern)
 
