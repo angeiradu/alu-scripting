@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby
-# Get the argument from the command line
-text_string = ARGV[0]
+# Get the argument
+input = ARGV[0]
 
-# Define the regular expression pattern
+# Define regular expression pattern
 pattern = /(htn|hbtn)/
 
-# Match the pattern against the text string
-matches = text_string.scan(pattern)
+matches = input.scan(pattern)
 
 # Print the matched results
 puts  matches
