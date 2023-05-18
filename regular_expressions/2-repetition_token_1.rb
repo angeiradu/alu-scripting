@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 input = ARGV[0]
 
-pattern = /^htb?n/
+pattern = /hb?tn/
 matches=input.match(pattern)
 if matches =~ pattern
-  puts matche 
+  puts matches 
