@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 input = ARGV[0]
-pattern = /(\h\b.)/
+pattern = /(\h\n.)/
 matches = input.scan(pattern)
 puts matches[0]
