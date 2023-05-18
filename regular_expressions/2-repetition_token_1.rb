@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
-# Accept one argument from the command line
-input = ARGV[0]
+# Get the argument from the command line
+text_string = ARGV[0]
 
 # Define the regular expression pattern
-pattern = /^(hbn|hbtn)$/
+pattern = /(htn|hbtn)/
 
-# Match the input against the pattern
-if input.match?(pattern)
-  puts "Match found: #{input}"
-else
-  puts "No match found for: #{input}"
-end
+# Match the pattern against the text string
+matches = text_string.scan(pattern)
+
+# Print the matched results
+puts "Matched results: #{matches}"
