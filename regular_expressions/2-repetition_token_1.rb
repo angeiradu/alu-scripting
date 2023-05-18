@@ -9,4 +9,4 @@ pattern = /(htn|hbtn)/
 matches = text_string.scan(pattern)
 
 # Print the matched results
-puts "Matched results: #{matches}"
+puts  matches
