@@ -3,5 +3,5 @@ input = ARGV[0]
 
 pattern = /^ht(b?)n$/
 matches=input.match(pattern)
-if matches = pattern
-  print(input)
+if matches =~ pattern
+  puts "matches{[0]
