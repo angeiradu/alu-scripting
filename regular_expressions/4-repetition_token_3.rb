@@ -2,4 +2,4 @@
 input = ARVG[0]
 pattern = /^(hbt*n)$/
 matches = input.scan(pattern)
-puts matches
+puts matches[0]
