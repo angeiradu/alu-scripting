@@ -1,7 +1,13 @@
 #!/usr/bin/env ruby
+# Accept one argument from the command line
 input = ARGV[0]
 
-pattern = /hb?tn/
-matches=input.match(pattern)
-if matches =~ pattern
-  puts matches 
+# Define the regular expression pattern
+pattern = /^(hbn|hbtn)$/
+
+# Match the input against the pattern
+if input.match?(pattern)
+  puts "Match found: #{input}"
+else
+  puts "No match found for: #{input}"
+end
